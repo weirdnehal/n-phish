@@ -1,12 +1,12 @@
 FROM debian:latest
-LABEL MAINTAINER="https://github.com/htr-tech/zphisher"
+LABEL MAINTAINER="https://github.com/nehal-ahmmed/n-phish"
 
-WORKDIR /zphisher/
-ADD . /zphisher
+WORKDIR /n-phish/
+ADD . /n-phish
 
 RUN apt update && \
     apt full-upgrade -y && \
     apt install -y curl unzip wget && \
     apt install --no-install-recommends -y php && \
     apt clean
-CMD ["./zphisher.sh"]
+CMD ["./n-phish.sh"]

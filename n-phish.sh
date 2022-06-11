@@ -1,9 +1,9 @@
 #!/bin/bash
 
-##   Zphisher 	: 	Automated Phishing Tool
-##   Author 	: 	TAHMID RAYAT 
+##   n-phish 	: 	Automated Phishing Tool
+##   Author 	: 	nehal-ahmmed
 ##   Version 	: 	2.2
-##   Github 	: 	https://github.com/htr-tech
+##   Github 	: 	https://github.com/nehal-ahmmed
 
 ##   THANKS TO :
 ##   Aditya Shakya - https://github.com/adi1090x
@@ -91,7 +91,7 @@
 ##    The precise terms and conditions for copying, distribution and
 ##    modification follow.
 ##
-##      Copyright (C) 2022  HTR-TECH (https://github.com/htr-tech)
+##      Copyright (C) 2022  nehal-ahmmed (https://github.com/nehal-ahmmed)
 ##
 
 
@@ -153,27 +153,24 @@ kill_pid() {
 ## Banner
 banner() {
 	cat <<- EOF
-		${ORANGE}
-		${ORANGE} ______      _     _     _               
-		${ORANGE}|___  /     | |   (_)   | |              
-		${ORANGE}   / / _ __ | |__  _ ___| |__   ___ _ __ 
-		${ORANGE}  / / | '_ \| '_ \| / __| '_ \ / _ \ '__|
-		${ORANGE} / /__| |_) | | | | \__ \ | | |  __/ |   
-		${ORANGE}/_____| .__/|_| |_|_|___/_| |_|\___|_|   
-		${ORANGE}      | |                                
-		${ORANGE}      |_|                ${RED}Version : 2.2
+_   _       ____  _     _     _
+| \ | |     |  _ \| |__ (_)___| |__
+|  \| |_____| |_) | '_ \| / __| '_ \ 
+| |\  |_____|  __/| | | | \__ \ | | |
+|_| \_|     |_|   |_| |_|_|___/_| |_|
 
-		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by htr-tech (tahmid.rayat)${WHITE}
-	EOF
+${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by nehal-ahmmed ${WHITE}
+EOF
 }
 
 ## Small Banner
 banner_small() {
 	cat <<- EOF
-		${BLUE}
-		${BLUE}  ░▀▀█░█▀█░█░█░▀█▀░█▀▀░█░█░█▀▀░█▀▄
-		${BLUE}  ░▄▀░░█▀▀░█▀█░░█░░▀▀█░█▀█░█▀▀░█▀▄
-		${BLUE}  ░▀▀▀░▀░░░▀░▀░▀▀▀░▀▀▀░▀░▀░▀▀▀░▀░▀${WHITE} 2.2
+_   _       ____  _     _     _
+| \ | |     |  _ \| |__ (_)___| |__
+|  \| |_____| |_) | '_ \| / __| '_ \ 
+| |\  |_____|  __/| | | | \__ \ | | |
+|_| \_|     |_|   |_| |_|_|___/_| |_|
 	EOF
 }
 
@@ -312,8 +309,8 @@ msg_exit() {
 about() {
 	{ clear; banner; echo; }
 	cat <<- EOF
-		${GREEN}Author   ${RED}:  ${ORANGE}TAHMID RAYAT ${RED}[ ${ORANGE}HTR-TECH ${RED}]
-		${GREEN}Github   ${RED}:  ${CYAN}https://github.com/htr-tech
+		${GREEN}Author   ${RED}:  ${ORANGE}TAHMID RAYAT ${RED}[ ${ORANGE}nehal-ahmmed ${RED}]
+		${GREEN}Github   ${RED}:  ${CYAN}https://github.com/nehal-ahmmed
 		${GREEN}Social   ${RED}:  ${CYAN}https://linktr.ee/tahmid.rayat
 		${GREEN}Version  ${RED}:  ${ORANGE}2.2
 
