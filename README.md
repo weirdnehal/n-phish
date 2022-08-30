@@ -61,7 +61,7 @@ $ bash n-phish.sh
 ### Run on Docker
 ```
 $ docker pull htrtech/n-phish
-$ docker run --rm -it htrtech/n-phish
+
 ```
 
 ### Dependencies
