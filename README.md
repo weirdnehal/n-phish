@@ -78,16 +78,7 @@ $ docker run --rm -it htrtech/n-phish
 
 
 
-### Special Thanks :
 
-- [**Aditya Shakya**](https://github.com/adi1090x)
-- [**1RaY-1**](https://github.com/1RaY-1)
-- [**Yisus7u7**](https://github.com/Yisus7u7)
-- [**sepp0**](https://github.com/sepp0)
-- [**AliMilani**](https://github.com/AliMilani)
-- [**TheLinuxChoice**](https://twitter.com/linux_choice)
-- [**DarksecDevelopers**](https://github.com/DarksecDevelopers)
-- [**Moises Tapia**](https://github.com/MoisesTapia)
 
 
 ### Find Me on :
