@@ -1,9 +1,9 @@
 #!/bin/bash
 
 ##   n-phish 	: 	Automated Phishing Tool
-##   Author 	: 	nehal-ahmmed
+##   Author 	: 	weirdnehal
 ##   Version 	: 	2.2
-##   Github 	: 	https://github.com/nehal-ahmmed
+##   Github 	: 	https://github.com/weirdnehal
 
 ##   THANKS TO :
 ##   Aditya Shakya - https://github.com/adi1090x
@@ -91,7 +91,7 @@
 ##    The precise terms and conditions for copying, distribution and
 ##    modification follow.
 ##
-##      Copyright (C) 2022  nehal-ahmmed (https://github.com/nehal-ahmmed)
+##      Copyright (C) 2022  weirdnehal (https://github.com/weirdnehal)
 ##
 
 
@@ -153,24 +153,32 @@ kill_pid() {
 ## Banner
 banner() {
 	cat <<- EOF
-_   _       ____  _     _     _
-| \ | |     |  _ \| |__ (_)___| |__
-|  \| |_____| |_) | '_ \| / __| '_ \ 
-| |\  |_____|  __/| | | | \__ \ | | |
-|_| \_|     |_|   |_| |_|_|___/_| |_|
 
-${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by nehal-ahmmed ${WHITE}
+   ███    ██       ██████  ██   ██ ██ ███████ ██   ██ 
+   ████   ██       ██   ██ ██   ██ ██ ██      ██   ██ 
+   ██ ██  ██ █████ ██████  ███████ ██ ███████ ███████ 
+   ██  ██ ██       ██      ██   ██ ██      ██ ██   ██ 
+   ██   ████       ██      ██   ██ ██ ███████ ██   ██ 
+                                                   
+                                                   
+
+
+${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by weirdnehal ${WHITE}
 EOF
 }
 
 ## Small Banner
 banner_small() {
 	cat <<- EOF
-_   _       ____  _     _     _
-| \ | |     |  _ \| |__ (_)___| |__
-|  \| |_____| |_) | '_ \| / __| '_ \ 
-| |\  |_____|  __/| | | | \__ \ | | |
-|_| \_|     |_|   |_| |_|_|___/_| |_|
+
+   ███    ██       ██████  ██   ██ ██ ███████ ██   ██ 
+   ████   ██       ██   ██ ██   ██ ██ ██      ██   ██ 
+   ██ ██  ██ █████ ██████  ███████ ██ ███████ ███████ 
+   ██  ██ ██       ██      ██   ██ ██      ██ ██   ██ 
+   ██   ████       ██      ██   ██ ██ ███████ ██   ██ 
+                                                   
+                                                   
+
 	EOF
 }
 
@@ -309,9 +317,9 @@ msg_exit() {
 about() {
 	{ clear; banner; echo; }
 	cat <<- EOF
-		${GREEN}Author   ${RED}:  ${ORANGE}TAHMID RAYAT ${RED}[ ${ORANGE}nehal-ahmmed ${RED}]
-		${GREEN}Github   ${RED}:  ${CYAN}https://github.com/nehal-ahmmed
-		${GREEN}Social   ${RED}:  ${CYAN}https://linktr.ee/tahmid.rayat
+		${GREEN}Author   ${RED}:  ${ORANGE}NEHAL AHMED ${RED}[ ${ORANGE}weirdnehal ${RED}]
+		${GREEN}Github   ${RED}:  ${CYAN}https://github.com/weirdnehal
+		${GREEN}Social   ${RED}:  ${CYAN}https://linktr.ee/weirdnehal
 		${GREEN}Version  ${RED}:  ${ORANGE}2.2
 
 		${REDBG}${WHITE} Thanks : Adi1090x,MoisesTapia,ThelinuxChoice
