@@ -47,7 +47,7 @@ It only demonstrates "how phishing works". <b>You shall not misuse the informati
 
 - Just, Clone this repository -
 ```
-$ git clone https://github.com/nehal-ahmmed/n-phish.git
+$ git clone https://github.com/weirdnehal/n-phish.git
 ```
 
 - Change to cloned directory and run `n-phish.sh` -
@@ -60,7 +60,7 @@ $ bash n-phish.sh
 
 ### Run on Docker
 ```
-$ docker pull htrtech/n-phish
+$ docker pull weirdnehal/n-phish
 
 ```
 
