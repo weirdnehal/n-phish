@@ -10,7 +10,7 @@
   </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Author-Nehal--Ahmmed-cyan?style=flat-square">
+  <img src="https://img.shields.io/badge/Author-weirdnehal-cyan?style=flat-square">
   <img src="https://img.shields.io/badge/Open%20Source-Yes-cyan?style=flat-square">
   <img src="https://img.shields.io/badge/Written%20In-Bash-cyan?style=flat-square">
 </p>
